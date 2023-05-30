@@ -1,0 +1,94 @@
+*
+{margin: 0;padding: 0; box-sizing: border-box;}
+::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+    background: transparent;
+}
+body
+{
+    height: 100%;
+    width: 100%; 
+    overflow-x: hidden;
+    background-color:#ECECEC;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.container
+{
+    display:  flex;
+    font-size:  16px;
+    font-family: Stolzl;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items:center;
+    min-height: 1000px;
+    margin-top:150px ;
+}
+.backlinks
+{
+    width: 1100px;
+    height: 100px;
+    display:flex;
+    flex-direction: column;
+}
+.fulllink
+{
+    width: 100%; 
+    display: flex;
+}
+.link
+{
+    color:black;
+    font-size: 16px;
+}
+.current
+{
+    color:#4435BA;
+}
+.date
+{
+  font-size: 16px;
+  font-weight: 400;
+  color:#969696;
+  margin-top: 15px;
+}
+.post
+{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    overflow-x: hidden;
+    background-color:#fff;
+    border-radius:30px;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.09);
+    width: 1100px;
+    margin-bottom: 90px;
+}
+.title
+{
+    max-width: 800px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.titletext
+{
+    color: #261A7E;
+    font-size: 60px;
+    font-weight: 600;
+}
+.image
+{
+    max-width: 800px;
+    width: 800px;
+}
+.text
+{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    max-width: 800px;
+}
