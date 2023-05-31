@@ -39,7 +39,7 @@ body
 }
 .gifmks
 {
-    background-image: url("/img/таймлапс.gif");
+    background-image: url("https://nikitkakoevka.github.io/cosmo.web/img/таймлапс.gif");
     background-size: cover;
     background-repeat: no-repeat;
     height: 700px;
