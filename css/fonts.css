@@ -1,0 +1,155 @@
+/*------------------Commissioner-------------------------------*/
+@font-face 
+{
+	font-family: 'Commissioner';
+	src: url('/font/Commissioner-Thin.ttf') format('truetype');
+	font-weight: 100;
+	font-style: normal;
+}
+@font-face 
+{
+	font-family: 'Commissioner';
+	src: url('/font/Commissioner-ExtraLight.ttf') format('truetype');
+	font-weight: 200;
+	font-style: normal;
+}
+@font-face 
+{
+	font-family: 'Commissioner';
+	src: url('/font/Commissioner-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+@font-face 
+{
+	font-family: 'Commissioner';
+	src: url('/font/Commissioner-Regular.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face 
+{
+	font-family: 'Commissioner';
+	src: url('/font/Commissioner-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+@font-face 
+{
+	font-family: 'Commissioner';
+	src: url('/font/Commissioner-SemiBold.ttf') format('truetype');
+	font-weight: 600;
+	font-style: normal;
+}
+@font-face 
+{
+	font-family: 'Commissioner';
+	src: url('/font/Commissioner-Bold.ttf') format('truetype');
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face 
+{
+	font-family: 'Commissioner';
+	src: url('/font/Commissioner-ExtraBold.ttf') format('truetype');
+	font-weight: 800;
+	font-style: normal;
+}
+@font-face 
+{
+	font-family: 'Commissioner';
+	src: url('/font/Commissioner-Black.ttf') format('truetype');
+	font-weight: 900;
+	font-style: normal;
+}
+
+
+/*------------------Stolzl-------------------------------*/
+
+@font-face 
+{
+	font-family: 'Stolzl';
+	src: url('/font/stolzl_thin.otf') format('truetype');
+	font-weight: 100;
+	font-style: normal;
+}
+@font-face 
+{
+	font-family: 'Stolzl';
+	src: url('/font/stolzl_light.otf') format('truetype');
+	font-weight: 200;
+	font-style: normal;
+}
+@font-face 
+{
+	font-family: 'Stolzl';
+	src: url('/font/stolzl_book.otf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+@font-face 
+{
+	font-family: 'Stolzl';
+	src: url('/font/stolzl_regular.otf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face 
+{
+	font-family: 'Stolzl';
+	src: url('/font/stolzl_medium.otf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+@font-face 
+{
+	font-family: 'Stolzl';
+	src: url('/font/stolzl_bold.otf') format('truetype');
+	font-weight: 600;
+	font-style: normal;
+}
+
+/*------------------Niramit-------------------------------*/
+
+@font-face 
+{
+	font-family: 'Niramit';
+	src: url('/font/Niramit-ExtraLight.ttf') format('truetype');
+	font-weight: 200;
+	font-style: normal;
+}
+@font-face 
+{
+	font-family: 'Niramit';
+	src: url('/font/Niramit-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+@font-face 
+{
+	font-family: 'Niramit';
+	src: url('/font/Niramit-Regular.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face 
+{
+	font-family: 'Niramit';
+	src: url('/font/Niramit-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+@font-face 
+{
+	font-family: 'Niramit';
+	src: url('/font/Niramit-SemiBold.ttf') format('truetype');
+	font-weight: 600;
+	font-style: normal;
+}
+@font-face 
+{
+	font-family: 'Niramit';
+	src: url('/font/Niramit-Bold.ttf') format('truetype');
+	font-weight: 700;
+	font-style: normal;
+}

@@ -1,34 +1,46 @@
 *
 {margin: 0;padding: 0; box-sizing: border-box;}
 ::-webkit-scrollbar {
-  width: 0;
-  height: 0;
-  background: transparent;
+    width: 0;
+    height: 0;
+    background: transparent;
 }
 body
 {
-  height: 100%;
-  width: 100%; 
-  overflow-x: hidden;
-  background-color:#000000;
+    height: 100%;
+    width: 100%; 
+    overflow-x: hidden;
+    background-color:#000000;
+}
+.invertheader
+{
+    background-color: #000000;
 }
 
-
+.invert 
+{
+    color:#fff;
+}
+.colored
+{
+    color:#9A7AFF;
+}
 .container
 {
-  display: flex;
-  font-size:70px ;
-  font-family: Stolzl;
-  /* justify-content: space-around; */
-  flex-direction: column;
-  align-items:center;
-  min-height: 3000px;
-  padding-top:300px ;
+    display: flex;
+    font-size:70px ;
+    font-family: 'Stolzl';
+    /* justify-content: space-around; */
+    flex-direction: column;
+    align-items:center;
+    overflow-x: hidden;
+    min-height: 3000px;
+    padding-top:300px ;
 }
 .SunImg
 {
-    width: 1000px;
-    height: 1000px;
+    width: 1500px;
+    height: 1500px;
 }
 .SunBox
 {
@@ -41,9 +53,9 @@ body
 }
 .SunText
 {
-    font-family: 'Commissioner',sans-serif;
+    font-family: 'Commissioner';
     font-style: normal;
-    font-weight: 300;
+    font-weight: 100;
     width: 600px;
     height: 727px;
     font-size: 30px;
@@ -89,49 +101,302 @@ body
     flex-direction: column;
     align-items: center;
 }
+.GiganticPlanet
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .ETPtitle
 {
     text-transform: uppercase;
-    font-size: 100px;
-    font-weight: 600;
+    font-size: 75px;
+    font-weight: 800;
     background-image:url("/imgplanets/ПланетыЗемногоТипа.png");
     -webkit-background-clip: text; /* Для Safari/Chrome */
-    background-size:cover;
+    background-size:1390px;
     background-repeat: repeat;
     color: transparent;
-    font-family: 'Commissioner',sans-serif;
-
+    font-family: 'Commissioner';
 }
-
+.GPtitle
+{
+    margin-top: 150px;
+    text-transform: uppercase;
+    font-size: 75px;
+    font-weight: 800;
+    background-image:url("/imgplanets/ПланетыГиганты.png");
+    -webkit-background-clip: text; /* Для Safari/Chrome */
+    background-size:1090px;
+    background-repeat: repeat;
+    color: transparent;
+    font-family: 'Commissioner';
+}
+.Planettitle
+{
+    font-size: 50px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.MercImg
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:center;
+    height: 1000px;
+}
+.VenImg
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:center;
+    height: 1100px;
+}
+.EarthImg
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:center;
+    height: 1100px;
+}
+.MarsImg
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:center;
+    height: 1100px;
+}
 .Mercury
 {
-    width: 1661px;
-    height: 1196px;
+    margin-top: 100px;
+    display: flex;
+}
+.Venus
+{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.Earth
+{
+    margin-top: 100px;
+    display: flex;
+}
+.Moon
+{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.Mars
+{
+    margin-top: 100px;
+    display: flex;
+}
+.Jupiter
+{
+    margin-top: 100px;
+    display: flex;
+}
+.Saturn
+{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.Uranus
+{
+    margin-top: 100px;
+    display: flex;
+}
+.Neptune
+{
+    margin-top: 100px;
+    margin-bottom: 350px;
+    display: flex;
+    flex-direction: row-reverse;
 }
 .MercRaz
 {
     position: relative;
-    left: 100px;
-    top:100px;
+    width: 700px;
 }
+.VenRaz
+{
+    position: relative;
+    width: 700px;
+
+}
+.EarthRaz
+{
+    position: relative;
+    width: 700px;
+
+}
+.MoonRaz
+{
+    position: relative;
+    width: 700px;
+}
+.MarsRaz
+{
+    position: relative;
+    width: 700px;
+}
+.JupRaz
+{
+    position: relative;
+    width: 700px;
+
+}
+.SatRaz
+{
+    position: relative;
+    width: 1700px;
+    margin-left: 100px;
+}
+.UranusRaz
+{
+    position: relative;
+    width: 700px;
+}
+.NepRaz
+{
+    position: relative;
+    width: 700px;
+}
+
+
 .MercPov
 {
     position: relative;
-    left: -100px;
-    top:500px;
+    width: 210px;
+    height: 210px;
 }
-.MercText
+.VenPov
 {
     position: relative;
-    left: 900px;
-    top:-100px;
-    font-family: 'Commissioner',sans-serif;
+    width: 210px;
+    height: 210px;
+}
+.EarthPov
+{
+    position: relative;
+    width: 210px;
+    height: 210px;
+}
+.MarsPov
+{
+    position: relative;
+    width: 210px;
+    height: 210px;
+}
+.PlanetText
+{
+    position: relative;
+    font-family: 'Commissioner';
     font-style: normal;
     font-weight: 300;
-    width: 600px;
-    height: 727px;
-    font-size: 30px;
+    font-size: 24px;
     display: flex;
     flex-direction: column;
     color:#ffffff;
+}
+.MercText
+{
+    margin-left: 150px;
+
+}
+.VenText
+{
+    margin-right: 150px;
+
+}
+.EarthText
+{
+    margin-left: 150px;
+}
+.MoonText
+{
+    margin-right: 150px;
+    margin-top: 30px;
+}
+.MarsText
+{
+    margin-left: 150px;
+}
+.JupText
+{
+    margin-left: 50px;
+    margin-top:220px;
+}
+.SatText
+{
+   left: 550px;
+   top: 150px;
+}
+.UranusText
+{
+    margin-left: 50px;
+}
+.NepText
+{
+    margin-right: 50px;
+}
+
+
+
+.PlanetAbout
+{
+    font-weight: 100;
+    font-size: 26px;
+    width: 500px;
+    text-align: justify;
+    margin-top: 40px;
+}
+.PlanetLink
+{
+    font-weight: 700;
+    margin-top: 40px;
+    font-size: 30px;
+}
+.MercLink
+{
+    color:#7F5243;
+}
+.VenLink
+{
+    color:#C38254;
+}
+.EarthLink
+{
+    color:#74ACA0;
+}
+.MoonLink
+{
+    color:#BEB6BF;
+}
+.MarsLink
+{
+    color:#E95838;
+}
+.JupLink
+{
+    color:#723B35;
+}
+.SatLink
+{
+    color:#FFFF9F;
+}
+.UranusLink
+{
+    color: #6AE2EC;
+}
+.NepLink
+{
+    color: #65A9EA;
 }

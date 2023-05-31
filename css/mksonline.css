@@ -1,0 +1,93 @@
+*
+{margin: 0;padding: 0; box-sizing: border-box;}
+::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+    background: transparent;
+}
+body
+{
+    height: 100%;
+    width: 100%; 
+    overflow-x: hidden;
+    background-color:#000000;
+}
+.invertheader
+{
+    background-color: #000000;
+}
+
+.invert 
+{
+    color:#fff;
+}
+.colored
+{
+    color:#9A7AFF;
+}
+.container
+{
+    display: flex;
+    font-size:70px ;
+    font-family: 'Stolzl';
+    /* justify-content: space-around; */
+    flex-direction: column;
+    align-items:center;
+    overflow-x: hidden;
+    min-height: 2250px;
+    padding-top:100px ;
+}
+.gifmks
+{
+    background-image: url("/img/таймлапс.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.MKS
+{
+    font-family: 'Stolzl';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 128px;
+    line-height: 154px;
+    text-align: center;
+    color: #FFFFFF;
+    mix-blend-mode: difference;
+}
+h1
+{
+    font-family: 'Stolzl';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 29px;
+}
+.MSKtext
+{
+    font-family: 'Stolzl';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 20px;
+    line-height: 29px;
+    text-align: justify;
+    width: 1200px;
+    height:500px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.MSKtrans
+{
+    width: 1200px;
+
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
