@@ -10,7 +10,7 @@ body
   height: 100%;
   width: 100%; 
   overflow-x: hidden;
-  background-image: url("/img/задний фон.jpg");
+  background-image: url("https://nikitkakoevka.github.io/cosmo.web/img/задний фон.jpg");
   background-color:#ECECEC;
 }
 
@@ -57,7 +57,7 @@ body
 }
 .Astronomy
 {
-  background-image: url("/img/Фон астрономии.jpg");
+  background-image: url("https://nikitkakoevka.github.io/cosmo.web/img/Фон астрономии.jpg");
   font-size:  90px;
   background-clip: text;
   -webkit-background-clip: text; /* Для Safari/Chrome */
