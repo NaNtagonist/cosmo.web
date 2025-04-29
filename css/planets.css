@@ -85,7 +85,7 @@ body
 }
 .AllPlanets
 {
-    background-image:url("https://nikitkakoevka.github.io/cosmo.web/imgplanets/Фон.png");
+    background-image:url("../imgplanets/Фон.png");
     min-height: 3000px;
     background-size:cover;
     width: 100%;
@@ -112,7 +112,7 @@ body
     text-transform: uppercase;
     font-size: 75px;
     font-weight: 800;
-    background-image:url("https://nikitkakoevka.github.io/cosmo.web/imgplanets/ПланетыЗемногоТипа.png");
+    background-image:url("../imgplanets/ПланетыЗемногоТипа.png");
     -webkit-background-clip: text; /* Для Safari/Chrome */
     background-size:1390px;
     background-repeat: repeat;
@@ -125,7 +125,7 @@ body
     text-transform: uppercase;
     font-size: 75px;
     font-weight: 800;
-    background-image:url("https://nikitkakoevka.github.io/cosmo.web/imgplanets/ПланетыГиганты.png");
+    background-image:url("../imgplanets/ПланетыГиганты.png");
     -webkit-background-clip: text; /* Для Safari/Chrome */
     background-size:1090px;
     background-repeat: repeat;
